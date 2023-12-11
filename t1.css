@@ -1,0 +1,134 @@
+.img1{
+    width: 60%;
+    height: 550px;
+}
+.yep{
+    position: fixed;
+}
+#home{
+    margin-top: -170px;
+}
+.navcontent{
+    margin-left: 430px;
+    
+}
+
+.contant,.contant2,.contant3,.contant4{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 81, 128);
+    position: absolute;
+    padding: 10px;
+    /* opacity: 0%; */
+    display: none;
+}
+.c1:hover .d1{
+display: none;
+transition: 4s;
+}
+.c1:hover .contant{
+display: block;
+transition: 4s;
+}
+.c2:hover .d2{
+    display: none;
+    transition: 4s;
+    }
+    .c2:hover .contant2{
+    display: block;
+    transition: 4s;
+    }
+.c3:hover .d3{
+display: none;
+transition: 4s;
+}
+.c3:hover .contant3{
+display: block;
+transition: 4s;
+}
+.c4:hover .d4{
+display: none;
+transition: 4s;
+}
+.c4:hover .contant4{
+display: block;
+transition: 4s;
+}
+/* .d2:hover{
+   display: none;
+} */
+.bgimg{
+    width: 100%;
+    height: 700px;
+    background-image: url(https://blog.thomascook.in/wp-content/uploads/2017/01/Four-seasons-Bora-Bora-yexplore.travel-1024x768.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.p1{
+    /* margin-left:450px; */
+    padding-top: 250px;
+}
+.boatimg{
+    width: 95%;
+    height: 300px;
+    margin: 40px;
+}
+.hd1{
+    text-shadow: 2px 2px;
+}
+.brh{
+    padding-top: 130px;
+}
+.b2{
+    margin-top: 40px;
+    margin-left: 600px;
+}
+.img2{
+    width: 20%;
+    align-items: center;
+}
+.img3{
+    width: 50%;
+    align-items: center;
+}
+li{
+    list-style: none;
+}
+.g1{
+    font-family: 'Whisper', cursive;
+}
+.sz1{
+    font-size: 60px;
+}
+.g2{
+    font-family: 'Pacifico', cursive;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+@media screen and (max-width:580px) {
+    .review{
+        flex-wrap:wrap;
+    }
+    .grp2{
+        flex-wrap: wrap;
+    }
+    .card1{
+        flex-wrap: wrap;
+    }
+    .change{
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+    .add{
+        flex-wrap: wrap;
+    }
+    .boatimg{
+        margin: 0px;
+    }
+    .emp1{
+        width: 85%;
+
+    }
+}
